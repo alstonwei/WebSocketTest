@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24532FFA1C7407EA00773FF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24532FF91C7407EA00773FF8 /* AppDelegate.m */; };
+		24532FFD1C7407EA00773FF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24532FFC1C7407EA00773FF8 /* main.m */; };
+		245330001C7407EA00773FF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24532FFF1C7407EA00773FF8 /* ViewController.m */; };
+		245330021C7407EA00773FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245330011C7407EA00773FF8 /* Assets.xcassets */; };
+		245330051C7407EA00773FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245330031C7407EA00773FF8 /* Main.storyboard */; };
+		245330101C7407EA00773FF8 /* WebSockedServerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2453300F1C7407EA00773FF8 /* WebSockedServerTestTests.m */; };
+		2453301B1C7407EA00773FF8 /* WebSockedServerTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2453301A1C7407EA00773FF8 /* WebSockedServerTestUITests.m */; };
+		2453303C1C74082F00773FF8 /* PSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2453302B1C74082F00773FF8 /* PSWebSocket.m */; };
+		2453303D1C74082F00773FF8 /* PSWebSocketBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2453302D1C74082F00773FF8 /* PSWebSocketBuffer.m */; };
+		2453303E1C74082F00773FF8 /* PSWebSocketDeflater.m in Sources */ = {isa = PBXBuildFile; fileRef = 2453302F1C74082F00773FF8 /* PSWebSocketDeflater.m */; };
+		2453303F1C74082F00773FF8 /* PSWebSocketDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 245330311C74082F00773FF8 /* PSWebSocketDriver.m */; };
+		245330401C74082F00773FF8 /* PSWebSocketInflater.m in Sources */ = {isa = PBXBuildFile; fileRef = 245330331C74082F00773FF8 /* PSWebSocketInflater.m */; };
+		245330411C74082F00773FF8 /* PSWebSocketNetworkThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 245330361C74082F00773FF8 /* PSWebSocketNetworkThread.m */; };
+		245330421C74082F00773FF8 /* PSWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 245330381C74082F00773FF8 /* PSWebSocketServer.m */; };
+		245330431C74082F00773FF8 /* PSWebSocketUTF8Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2453303B1C74082F00773FF8 /* PSWebSocketUTF8Decoder.m */; };
+		245330451C74088900773FF8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245330441C74088900773FF8 /* CFNetwork.framework */; };
+		245330471C74088F00773FF8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245330461C74088F00773FF8 /* Security.framework */; };
+		245330491C74089500773FF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245330481C74089500773FF8 /* Foundation.framework */; };
+		2453304B1C74089E00773FF8 /* libsysmon.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2453304A1C74089E00773FF8 /* libsysmon.tbd */; };
+		2453304D1C7408A600773FF8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2453304C1C7408A600773FF8 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2453300C1C7407EA00773FF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24532FED1C7407EA00773FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24532FF41C7407EA00773FF8;
+			remoteInfo = WebSockedServerTest;
+		};
+		245330171C7407EA00773FF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24532FED1C7407EA00773FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24532FF41C7407EA00773FF8;
+			remoteInfo = WebSockedServerTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24532FF51C7407EA00773FF8 /* WebSockedServerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebSockedServerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24532FF81C7407EA00773FF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24532FF91C7407EA00773FF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24532FFC1C7407EA00773FF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24532FFE1C7407EA00773FF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24532FFF1C7407EA00773FF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		245330011C7407EA00773FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		245330041C7407EA00773FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		245330061C7407EA00773FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2453300B1C7407EA00773FF8 /* WebSockedServerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSockedServerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2453300F1C7407EA00773FF8 /* WebSockedServerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSockedServerTestTests.m; sourceTree = "<group>"; };
+		245330111C7407EA00773FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245330161C7407EA00773FF8 /* WebSockedServerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSockedServerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2453301A1C7407EA00773FF8 /* WebSockedServerTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSockedServerTestUITests.m; sourceTree = "<group>"; };
+		2453301C1C7407EA00773FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245330291C74082F00773FF8 /* PocketSocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PocketSocket-Prefix.pch"; sourceTree = "<group>"; };
+		2453302A1C74082F00773FF8 /* PSWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWebSocket.h; sourceTree = "<group>"; };
+		2453302B1C74082F00773FF8 /* PSWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWebSocket.m; sourceTree = "<group>"; };
+		2453302C1C74082F00773FF8 /* PSWebSocketBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWebSocketBuffer.h; sourceTree = "<group>"; };
+		2453302D1C74082F00773FF8 /* PSWebSocketBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWebSocketBuffer.m; sourceTree = "<group>"; };
+		2453302E1C74082F00773FF8 /* PSWebSocketDeflater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWebSocketDeflater.h; sourceTree = "<group>"; };
+		2453302F1C74082F00773FF8 /* PSWebSocketDeflater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWebSocketDeflater.m; sourceTree = "<group>"; };
+		245330301C74082F00773FF8 /* PSWebSocketDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWebSocketDriver.h; sourceTree = "<group>"; };
+		245330311C74082F00773FF8 /* PSWebSocketDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWebSocketDriver.m; sourceTree = "<group>"; };
+		245330321C74082F00773FF8 /* PSWebSocketInflater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWebSocketInflater.h; sourceTree = "<group>"; };
+		245330331C74082F00773FF8 /* PSWebSocketInflater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWebSocketInflater.m; sourceTree = "<group>"; };
+		245330341C74082F00773FF8 /* PSWebSocketInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWebSocketInternal.h; sourceTree = "<group>"; };
+		245330351C74082F00773FF8 /* PSWebSocketNetworkThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWebSocketNetworkThread.h; sourceTree = "<group>"; };
+		245330361C74082F00773FF8 /* PSWebSocketNetworkThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWebSocketNetworkThread.m; sourceTree = "<group>"; };
+		245330371C74082F00773FF8 /* PSWebSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWebSocketServer.h; sourceTree = "<group>"; };
+		245330381C74082F00773FF8 /* PSWebSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWebSocketServer.m; sourceTree = "<group>"; };
+		245330391C74082F00773FF8 /* PSWebSocketTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWebSocketTypes.h; sourceTree = "<group>"; };
+		2453303A1C74082F00773FF8 /* PSWebSocketUTF8Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWebSocketUTF8Decoder.h; sourceTree = "<group>"; };
+		2453303B1C74082F00773FF8 /* PSWebSocketUTF8Decoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWebSocketUTF8Decoder.m; sourceTree = "<group>"; };
+		245330441C74088900773FF8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		245330461C74088F00773FF8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		245330481C74089500773FF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2453304A1C74089E00773FF8 /* libsysmon.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsysmon.tbd; path = usr/lib/libsysmon.tbd; sourceTree = SDKROOT; };
+		2453304C1C7408A600773FF8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24532FF21C7407EA00773FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2453304D1C7408A600773FF8 /* libz.tbd in Frameworks */,
+				2453304B1C74089E00773FF8 /* libsysmon.tbd in Frameworks */,
+				245330491C74089500773FF8 /* Foundation.framework in Frameworks */,
+				245330471C74088F00773FF8 /* Security.framework in Frameworks */,
+				245330451C74088900773FF8 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245330081C7407EA00773FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245330131C7407EA00773FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24532FEC1C7407EA00773FF8 = {
+			isa = PBXGroup;
+			children = (
+				2453304C1C7408A600773FF8 /* libz.tbd */,
+				2453304A1C74089E00773FF8 /* libsysmon.tbd */,
+				245330481C74089500773FF8 /* Foundation.framework */,
+				245330461C74088F00773FF8 /* Security.framework */,
+				245330441C74088900773FF8 /* CFNetwork.framework */,
+				24532FF71C7407EA00773FF8 /* WebSockedServerTest */,
+				2453300E1C7407EA00773FF8 /* WebSockedServerTestTests */,
+				245330191C7407EA00773FF8 /* WebSockedServerTestUITests */,
+				24532FF61C7407EA00773FF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24532FF61C7407EA00773FF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24532FF51C7407EA00773FF8 /* WebSockedServerTest.app */,
+				2453300B1C7407EA00773FF8 /* WebSockedServerTestTests.xctest */,
+				245330161C7407EA00773FF8 /* WebSockedServerTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24532FF71C7407EA00773FF8 /* WebSockedServerTest */ = {
+			isa = PBXGroup;
+			children = (
+				245330281C74082F00773FF8 /* PocketSocket */,
+				24532FF81C7407EA00773FF8 /* AppDelegate.h */,
+				24532FF91C7407EA00773FF8 /* AppDelegate.m */,
+				24532FFE1C7407EA00773FF8 /* ViewController.h */,
+				24532FFF1C7407EA00773FF8 /* ViewController.m */,
+				245330011C7407EA00773FF8 /* Assets.xcassets */,
+				245330031C7407EA00773FF8 /* Main.storyboard */,
+				245330061C7407EA00773FF8 /* Info.plist */,
+				24532FFB1C7407EA00773FF8 /* Supporting Files */,
+			);
+			path = WebSockedServerTest;
+			sourceTree = "<group>";
+		};
+		24532FFB1C7407EA00773FF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24532FFC1C7407EA00773FF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2453300E1C7407EA00773FF8 /* WebSockedServerTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2453300F1C7407EA00773FF8 /* WebSockedServerTestTests.m */,
+				245330111C7407EA00773FF8 /* Info.plist */,
+			);
+			path = WebSockedServerTestTests;
+			sourceTree = "<group>";
+		};
+		245330191C7407EA00773FF8 /* WebSockedServerTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2453301A1C7407EA00773FF8 /* WebSockedServerTestUITests.m */,
+				2453301C1C7407EA00773FF8 /* Info.plist */,
+			);
+			path = WebSockedServerTestUITests;
+			sourceTree = "<group>";
+		};
+		245330281C74082F00773FF8 /* PocketSocket */ = {
+			isa = PBXGroup;
+			children = (
+				245330291C74082F00773FF8 /* PocketSocket-Prefix.pch */,
+				2453302A1C74082F00773FF8 /* PSWebSocket.h */,
+				2453302B1C74082F00773FF8 /* PSWebSocket.m */,
+				2453302C1C74082F00773FF8 /* PSWebSocketBuffer.h */,
+				2453302D1C74082F00773FF8 /* PSWebSocketBuffer.m */,
+				2453302E1C74082F00773FF8 /* PSWebSocketDeflater.h */,
+				2453302F1C74082F00773FF8 /* PSWebSocketDeflater.m */,
+				245330301C74082F00773FF8 /* PSWebSocketDriver.h */,
+				245330311C74082F00773FF8 /* PSWebSocketDriver.m */,
+				245330321C74082F00773FF8 /* PSWebSocketInflater.h */,
+				245330331C74082F00773FF8 /* PSWebSocketInflater.m */,
+				245330341C74082F00773FF8 /* PSWebSocketInternal.h */,
+				245330351C74082F00773FF8 /* PSWebSocketNetworkThread.h */,
+				245330361C74082F00773FF8 /* PSWebSocketNetworkThread.m */,
+				245330371C74082F00773FF8 /* PSWebSocketServer.h */,
+				245330381C74082F00773FF8 /* PSWebSocketServer.m */,
+				245330391C74082F00773FF8 /* PSWebSocketTypes.h */,
+				2453303A1C74082F00773FF8 /* PSWebSocketUTF8Decoder.h */,
+				2453303B1C74082F00773FF8 /* PSWebSocketUTF8Decoder.m */,
+			);
+			path = PocketSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24532FF41C7407EA00773FF8 /* WebSockedServerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2453301F1C7407EA00773FF8 /* Build configuration list for PBXNativeTarget "WebSockedServerTest" */;
+			buildPhases = (
+				24532FF11C7407EA00773FF8 /* Sources */,
+				24532FF21C7407EA00773FF8 /* Frameworks */,
+				24532FF31C7407EA00773FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebSockedServerTest;
+			productName = WebSockedServerTest;
+			productReference = 24532FF51C7407EA00773FF8 /* WebSockedServerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2453300A1C7407EA00773FF8 /* WebSockedServerTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245330221C7407EA00773FF8 /* Build configuration list for PBXNativeTarget "WebSockedServerTestTests" */;
+			buildPhases = (
+				245330071C7407EA00773FF8 /* Sources */,
+				245330081C7407EA00773FF8 /* Frameworks */,
+				245330091C7407EA00773FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2453300D1C7407EA00773FF8 /* PBXTargetDependency */,
+			);
+			name = WebSockedServerTestTests;
+			productName = WebSockedServerTestTests;
+			productReference = 2453300B1C7407EA00773FF8 /* WebSockedServerTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		245330151C7407EA00773FF8 /* WebSockedServerTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245330251C7407EA00773FF8 /* Build configuration list for PBXNativeTarget "WebSockedServerTestUITests" */;
+			buildPhases = (
+				245330121C7407EA00773FF8 /* Sources */,
+				245330131C7407EA00773FF8 /* Frameworks */,
+				245330141C7407EA00773FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				245330181C7407EA00773FF8 /* PBXTargetDependency */,
+			);
+			name = WebSockedServerTestUITests;
+			productName = WebSockedServerTestUITests;
+			productReference = 245330161C7407EA00773FF8 /* WebSockedServerTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24532FED1C7407EA00773FF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = epailive;
+				TargetAttributes = {
+					24532FF41C7407EA00773FF8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2453300A1C7407EA00773FF8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 24532FF41C7407EA00773FF8;
+					};
+					245330151C7407EA00773FF8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 24532FF41C7407EA00773FF8;
+					};
+				};
+			};
+			buildConfigurationList = 24532FF01C7407EA00773FF8 /* Build configuration list for PBXProject "WebSockedServerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24532FEC1C7407EA00773FF8;
+			productRefGroup = 24532FF61C7407EA00773FF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24532FF41C7407EA00773FF8 /* WebSockedServerTest */,
+				2453300A1C7407EA00773FF8 /* WebSockedServerTestTests */,
+				245330151C7407EA00773FF8 /* WebSockedServerTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24532FF31C7407EA00773FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245330021C7407EA00773FF8 /* Assets.xcassets in Resources */,
+				245330051C7407EA00773FF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245330091C7407EA00773FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245330141C7407EA00773FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24532FF11C7407EA00773FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245330001C7407EA00773FF8 /* ViewController.m in Sources */,
+				24532FFD1C7407EA00773FF8 /* main.m in Sources */,
+				2453303C1C74082F00773FF8 /* PSWebSocket.m in Sources */,
+				2453303D1C74082F00773FF8 /* PSWebSocketBuffer.m in Sources */,
+				2453303F1C74082F00773FF8 /* PSWebSocketDriver.m in Sources */,
+				245330411C74082F00773FF8 /* PSWebSocketNetworkThread.m in Sources */,
+				24532FFA1C7407EA00773FF8 /* AppDelegate.m in Sources */,
+				2453303E1C74082F00773FF8 /* PSWebSocketDeflater.m in Sources */,
+				245330401C74082F00773FF8 /* PSWebSocketInflater.m in Sources */,
+				245330421C74082F00773FF8 /* PSWebSocketServer.m in Sources */,
+				245330431C74082F00773FF8 /* PSWebSocketUTF8Decoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245330071C7407EA00773FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245330101C7407EA00773FF8 /* WebSockedServerTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245330121C7407EA00773FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2453301B1C7407EA00773FF8 /* WebSockedServerTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2453300D1C7407EA00773FF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24532FF41C7407EA00773FF8 /* WebSockedServerTest */;
+			targetProxy = 2453300C1C7407EA00773FF8 /* PBXContainerItemProxy */;
+		};
+		245330181C7407EA00773FF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24532FF41C7407EA00773FF8 /* WebSockedServerTest */;
+			targetProxy = 245330171C7407EA00773FF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		245330031C7407EA00773FF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				245330041C7407EA00773FF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2453301D1C7407EA00773FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2453301E1C7407EA00773FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		245330201C7407EA00773FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebSockedServerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blog.csdn.net-shouqiangwei.WebSockedServerTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		245330211C7407EA00773FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebSockedServerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blog.csdn.net-shouqiangwei.WebSockedServerTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		245330231C7407EA00773FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebSockedServerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blog.csdn.net-shouqiangwei.WebSockedServerTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebSockedServerTest.app/Contents/MacOS/WebSockedServerTest";
+			};
+			name = Debug;
+		};
+		245330241C7407EA00773FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebSockedServerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blog.csdn.net-shouqiangwei.WebSockedServerTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebSockedServerTest.app/Contents/MacOS/WebSockedServerTest";
+			};
+			name = Release;
+		};
+		245330261C7407EA00773FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebSockedServerTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blog.csdn.net-shouqiangwei.WebSockedServerTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WebSockedServerTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		245330271C7407EA00773FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebSockedServerTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blog.csdn.net-shouqiangwei.WebSockedServerTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WebSockedServerTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24532FF01C7407EA00773FF8 /* Build configuration list for PBXProject "WebSockedServerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2453301D1C7407EA00773FF8 /* Debug */,
+				2453301E1C7407EA00773FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2453301F1C7407EA00773FF8 /* Build configuration list for PBXNativeTarget "WebSockedServerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245330201C7407EA00773FF8 /* Debug */,
+				245330211C7407EA00773FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		245330221C7407EA00773FF8 /* Build configuration list for PBXNativeTarget "WebSockedServerTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245330231C7407EA00773FF8 /* Debug */,
+				245330241C7407EA00773FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		245330251C7407EA00773FF8 /* Build configuration list for PBXNativeTarget "WebSockedServerTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245330261C7407EA00773FF8 /* Debug */,
+				245330271C7407EA00773FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24532FED1C7407EA00773FF8 /* Project object */;
+}
