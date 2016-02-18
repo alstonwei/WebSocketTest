@@ -13,3 +13,7 @@ ios应用，在contoller里面可以输入server的ip以及端口，格式 :ws:/
 第一步：配置websocket server的ip以及端口，运行OSX应用
 第二部：修改websocket client的配置，运行iOS应用。
 当然server和client的传递规则你可以在server和client的delegate里面自定义
+
+该demo废弃，只在mac平台和ios上测试了一下，在跨平台测试的时候发现PocketSocket 发送往服务端发送没有掩码的振时服务端会通知关闭连接，参考：http://jinnianshilongnian.iteye.com/blog/1899876，
+在测试中发现SocketRocket比较好用，连接：https://github.com/square/SocketRocket
+
